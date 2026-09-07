@@ -1,13 +1,13 @@
 name: Windows
 
 on:
-    push:
-        paths-ignore:
-            - 'doc/**'
-        branches-ignore: ["dependabot/**"]
-    pull_request:
-        paths-ignore:
-            - 'doc/**'
+    # push:
+    #     paths-ignore:
+    #         - 'doc/**'
+    #     branches-ignore: ["dependabot/**"]
+    # pull_request:
+    #     paths-ignore:
+    #         - 'doc/**'
 
 
 concurrency:
