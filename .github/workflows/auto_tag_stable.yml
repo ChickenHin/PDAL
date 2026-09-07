@@ -2,9 +2,9 @@ name: Update Stable Tag
 
 # taken directly from OSGeo/PROJ
 on:
-  push:
-    branches:
-      - '**'  # Matches all branches, but we later filter on the one matching the STABLE_BRANCH repository variable
+  # push:
+  #   branches:
+  #     - '**'  # Matches all branches, but we later filter on the one matching the STABLE_BRANCH repository variable
 
 permissions:
     contents: read
