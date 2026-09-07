@@ -1,13 +1,13 @@
 name: Conda
 
 on:
-    push:
-        paths-ignore:
-            - 'doc/**'
-        branches-ignore: ["dependabot/**"]
-    pull_request:
-        paths-ignore:
-            - 'doc/**'
+    # push:
+    #     paths-ignore:
+    #         - 'doc/**'
+    #     branches-ignore: ["dependabot/**"]
+    # pull_request:
+    #     paths-ignore:
+    #         - 'doc/**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
